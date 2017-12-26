@@ -12,6 +12,25 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/tv_product_name"
+        android:text="Name"
+        android:textColor="#4bb6d6"
+        android:textSize="20dp"
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_product_price"
+        android:text="100 $"
+        android:textColor="#b30000"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_product_description"
+        android:text="Description"
+        android:textSize="16dp"
+        android:textStyle="italic"/>
 
 </LinearLayout>

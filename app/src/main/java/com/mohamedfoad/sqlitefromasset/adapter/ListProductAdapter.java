@@ -1,7 +1,6 @@
 package com.mohamedfoad.sqlitefromasset.adapter;
 
 import android.content.Context;
-import android.provider.BaseColumns;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;

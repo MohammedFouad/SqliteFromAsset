@@ -17,7 +17,7 @@ import java.util.List;
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     public static final String DBNAME = "sample.sqlite";
-    public static final String DBLOCATION ="/data/data/com.mohamedfoad.sqlitefromasset/database/";
+    public static final String DBLOCATION ="/data/data/com.mohamedfoad.sqlitefromasset/databases/";
     private Context mContext;
     private SQLiteDatabase mDatabase;
 

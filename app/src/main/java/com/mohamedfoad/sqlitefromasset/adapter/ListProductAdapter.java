@@ -43,14 +43,15 @@ public class ListProductAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
-        View v = View.inflate(mContext, R.layout.item_listview,null);
-        TextView tvName = v.findViewById(R.id.tv_product_name);
-        TextView tvPrice =v.findViewById(R.id.tv_product_price);
-        TextView tvDescription = v.findViewById(R.id.tv_product_description);
+       convertView = View.inflate(mContext, R.layout.item_listview,null);
+
+        TextView tvName = convertView.findViewById(R.id.tv_product_name);
+        TextView tvPrice =convertView.findViewById(R.id.tv_product_price);
+        TextView tvDescription = convertView.findViewById(R.id.tv_product_description);
 
         tvName.setText(mProductList.get(position).getName());
         tvPrice.setText(String.valueOf(mProductList.get(position).getPrice()) + " $");
         tvDescription.setText(mProductList.get(position).getDescription());
-        return v;
+        return convertView;
     }
 }
